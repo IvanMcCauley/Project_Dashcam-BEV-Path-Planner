@@ -40,7 +40,7 @@ This demonstrates core skills in **computer vision, spatial transformation**, an
 
 ## 🌍 Context
 
-Autonomous vehicles don’t just detect objects — they **reason about space and motion**.  
+Autonomous vehicles don’t just detect objects, they **reason about space and motion**.  
 This project emulates that reasoning:
 
 - What’s around me? → YOLOv8 object detection
