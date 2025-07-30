@@ -51,8 +51,8 @@
 
 - ✅ Always rendered checkered flag icon at fixed goal position in BEV grid
 - ✅ Added dynamic stop sign overlay if A* path could not reach goal:
-- Positioned at final reachable node
-- Only visible when goal is blocked
+  - Positioned at final reachable node
+  - Only visible when goal is blocked
 - ✅ Implemented alpha blending for both flag and stop sign icons to support transparency
 
 ## Day 13 – Ego Car and Layout Finalization
@@ -64,8 +64,8 @@
 
 ## Day 14 – Aesthetic Polish & Animation
 - ✅ Added pulsing animation to A* path using sine wave brightness modulation:
-- Achieved dynamic “speed boost pad” visual using time-dependent oscillation
-- Customizable pulse speed and direction via frame_count
+  - Achieved dynamic “speed boost pad” visual using time-dependent oscillation
+  - Customizable pulse speed and direction via frame_count
 - ✅ Preserved original path behavior and grid alignment
 - ✅ Fine-tuned pulse smoothness for visual clarity without distraction
 
@@ -74,8 +74,8 @@
 - ✅ Removed deprecated scripts (yolo_detect_print.py, show_video.py, early test files)
 - ✅ Confirmed main.py + utils/ + config.py are only required scripts
 - ✅ Final output saved as output.avi with:
-- Live YOLO detections
-- Accurate BEV projection
-- Obstacle-aware A* path planning
-- Dynamic stop logic
-- Clean, stylized visuals ready for portfolio
+  - Live YOLO detections
+  - Accurate BEV projection
+  - Obstacle-aware A* path planning
+  - Dynamic stop logic
+  - Clean, stylized visuals ready for portfolio
