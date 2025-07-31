@@ -11,20 +11,29 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
 </p>
 
-<p align="left">
-  <img src="output_gif.gif" style="width:80%;" alt="BEV Path Planning Output">
-</p>
+
+
+<table>
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px;">
+      <p>
+        A real-time simulation of <strong>autonomous driving logic</strong>, from dashcam video to vehicle detection, Bird’s Eye View projection, occupancy grid mapping, and A* path planning.
+      </p>
+      <p>
+        This project emulates the core decision-making pipeline found in self-driving systems:<br>
+        <strong>Perception → Mapping → Planning.</strong>
+      </p>
+    </td>
+    <td style="vertical-align: top;">
+      <img src="output_gif.gif" width="270" alt="BEV Path Planning Output">
+    </td>
+  </tr>
+</table>
 
 
 
----
 
-A real-time simulation of **autonomous driving logic**, from dashcam video to vehicle detection, Bird’s Eye View projection, occupancy grid mapping, and A* path planning.
 
-This project emulates the core decision-making pipeline found in self-driving systems:  
-**Perception → Mapping → Planning.**
-
----
 
 ## 🚗 Project Goal
 
@@ -212,7 +221,7 @@ python main.py
 
 ---
 
-## 🚧 About This Project
+## 🚧 Why I Built This Project
 
 Built independently after graduating in Mechatronic Engineering,  
 this project is part of my ongoing journey into **Autonomous Vehicles** and **ADAS systems**.
