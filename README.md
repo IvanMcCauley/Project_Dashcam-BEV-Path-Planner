@@ -12,9 +12,9 @@
 </p>
 
 <p align="center">
-  <img src="<!-- PLACEHOLDER: Add demo GIF or output screenshot -->" width="800" alt="BEV Path Planning Output">
+  <img src="output_gif.gif" width="800" alt="BEV Path Planning Output">
 </p>
-</p>
+
 
 ---
 
