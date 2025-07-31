@@ -25,15 +25,12 @@
       </p>
     </td>
     <td style="vertical-align: top;">
-      <img src="output_gif.gif" width="270" alt="BEV Path Planning Output">
+      <img src="output_gif2.gif" width="270" alt="BEV Path Planning Output">
     </td>
   </tr>
 </table>
 
-
-
-
-
+---
 
 ## 🚗 Project Goal
 
@@ -96,7 +93,7 @@ It’s a simulation of the perception → planning loop used in real-world AV st
 
 ---
 
-## 🧠 Why This Reflects Real AV Systems
+## 🧠 How This Reflects Real AV Systems
 
 This project simulates the **actual logic** used by modern autonomous vehicles:
 
