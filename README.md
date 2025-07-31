@@ -98,6 +98,26 @@ This project simulates the **actual logic** used by modern autonomous vehicles:
 Though simplified, the system follows the same principles used in full-scale autonomous driving software.
 
 ---
+### 📄 File Overview
+
+| File | Description |
+|------|-------------|
+| [main.py](main.py) | Core execution file — runs detection, BEV, and path planning |
+| [config.py](config.py) | Central config file for all constants and parameters |
+| [astar.py](astar.py) | A* pathfinding algorithm for lane-aware planning |
+| [utils/detection.py](utils/detection.py) | Runs YOLOv8 inference and handles result caching |
+| [utils/perspective.py](utils/perspective.py) | Applies trapezoid-to-BEV perspective transform |
+| [utils/occupancy.py](utils/occupancy.py) | Builds binary occupancy grid and places car icons |
+| [utils/drawing.py](utils/drawing.py) | Renders path, ego vehicle, stop sign, and flag |
+| [utils/icons.py](utils/icons.py) | Loads and resizes all UI icons (cars, signs) |
+| [utils/lane_lines.py](utils/lane_lines.py) | Draws lane dividers with optional highlighting |
+| [driving.mp4](driving.mp4) | Dashcam input video used for detection |
+| [output.avi](output.avi) | Final saved video showing BEV + planning overlay |
+| [requirements.txt](requirements.txt) | Python dependencies for easy setup |
+| [LOG.md](LOG.md) | Full development log with step-by-step progress |
+| [README.md](README.md) | Project overview and setup instructions |
+
+---
 
 ## 📂 File Structure
 ```
