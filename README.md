@@ -112,7 +112,6 @@ Though simplified, the system follows the same principles used in full-scale aut
 | [utils/icons.py](utils/icons.py) | Loads and resizes all UI icons (cars, signs) |
 | [utils/lane_lines.py](utils/lane_lines.py) | Draws lane dividers with optional highlighting |
 | [driving.mp4](https://drive.google.com/file/d/1cbK9gPL7cW_nIEsJKrfM6FUGHA9mbdPG/view?usp=sharing) | Dashcam input video used for detection |
-| [output.avi](output.avi) | Final saved video showing BEV + planning overlay |
 | [requirements.txt](requirements.txt) | Python dependencies for easy setup |
 | [LOG.md](LOG.md) | Full development log with step-by-step progress |
 | [README.md](README.md) | Project overview and setup instructions |
@@ -136,7 +135,7 @@ yolo_adas_project/
 │ ├── lane_lines.py     ← Lane line rendering
 │
 ├── driving.mp4     ← Dashcam input 
-├── output.avi     ← Final video output
+├── output.avi     ← Final video output (saves to directory when program finishes running)
 ├── requirements.txt     ← Python dependencies for easy setup
 ├── LOG.md     ← Full dev log (linked below)
 └── README.md     ← This file
