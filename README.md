@@ -111,7 +111,7 @@ Though simplified, the system follows the same principles used in full-scale aut
 | [utils/drawing.py](utils/drawing.py) | Renders path, ego vehicle, stop sign, and flag |
 | [utils/icons.py](utils/icons.py) | Loads and resizes all UI icons (cars, signs) |
 | [utils/lane_lines.py](utils/lane_lines.py) | Draws lane dividers with optional highlighting |
-| [driving.mp4](driving.mp4) | Dashcam input video used for detection |
+| [driving.mp4](https://drive.google.com/file/d/1cbK9gPL7cW_nIEsJKrfM6FUGHA9mbdPG/view?usp=sharing) | Dashcam input video used for detection |
 | [output.avi](output.avi) | Final saved video showing BEV + planning overlay |
 | [requirements.txt](requirements.txt) | Python dependencies for easy setup |
 | [LOG.md](LOG.md) | Full development log with step-by-step progress |
