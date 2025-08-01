@@ -112,12 +112,12 @@ Though simplified, the system follows the same principles used in full-scale aut
 | [main.py](main.py) | Core execution file — runs detection, BEV, and path planning |
 | [config.py](config.py) | Central config file for all constants and parameters |
 | [astar.py](astar.py) | A* pathfinding algorithm for lane-aware planning |
-| [utils/detection.py](utils/detection.py) | Runs YOLOv8 inference and handles result caching |
-| [utils/perspective.py](utils/perspective.py) | Applies trapezoid-to-BEV perspective transform |
-| [utils/occupancy.py](utils/occupancy.py) | Builds binary occupancy grid and places car icons |
-| [utils/drawing.py](utils/drawing.py) | Renders path, ego vehicle, stop sign, and flag |
-| [utils/icons.py](utils/icons.py) | Loads and resizes all UI icons (cars, signs) |
-| [utils/lane_lines.py](utils/lane_lines.py) | Draws lane dividers with optional highlighting |
+| [detection.py](detection.py) | Runs YOLOv8 inference and handles result caching |
+| [perspective.py](perspective.py) | Applies trapezoid-to-BEV perspective transform |
+| [occupancy.py](occupancy.py) | Builds binary occupancy grid and places car icons |
+| [drawing.py](drawing.py) | Renders path, ego vehicle, stop sign, and flag |
+| [icons.py](icons.py) | Loads and resizes all UI icons (cars, signs) |
+| [lane_lines.py](lane_lines.py) | Draws lane dividers with optional highlighting |
 | [driving.mp4](https://drive.google.com/file/d/1cbK9gPL7cW_nIEsJKrfM6FUGHA9mbdPG/view?usp=sharing) | Dashcam input video used for detection |
 | [requirements.txt](requirements.txt) | Python dependencies for easy setup |
 | [LOG.md](LOG.md) | Full development log with step-by-step progress |
