@@ -148,10 +148,6 @@ yolo_adas_project/
 └── README.md     ← This file
 ```
 
-
----
-
-
 ---
 
 ## 📓 Development Log
@@ -163,10 +159,9 @@ Useful if you're curious about the process, want to recreate it, or build on top
 ---
 
 
-
 ## ▶️ Demo Video
 
-[![Watch the demo](OUTPUT_THUBMNAIL.PNG)](https://drive.google.com/file/d/1lvMLDSJ1ULKqPAdVSpwMIgijDAfISJai/view?usp=sharing)
+[![Watch the demo](OUTPUT_THUMBNAIL.PNG)](https://drive.google.com/file/d/1lvMLDSJ1ULKqPAdVSpwMIgijDAfISJai/view?usp=sharing)
 
 📹 **Click the image to watch the full demo** — see the system in action from raw dashcam input to BEV pathfinding.
 
