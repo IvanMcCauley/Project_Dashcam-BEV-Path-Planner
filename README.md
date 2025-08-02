@@ -166,8 +166,10 @@ Useful if you're curious about the process, want to recreate it, or build on top
 
 ## ▶️ Demo Video
 
-📹 **[Click here to watch the live demo →](https://drive.google.com/file/d/1lvMLDSJ1ULKqPAdVSpwMIgijDAfISJai/view?usp=sharing)**  
-Watch the full pipeline in motion — from raw dashcam input to BEV pathfinding overlay.
+[![Watch the demo](OUTPUT_THUBMNAIL.PNG)](https://drive.google.com/file/d/1lvMLDSJ1ULKqPAdVSpwMIgijDAfISJai/view?usp=sharing)
+
+📹 **Click the image to watch the full demo** — see the system in action from raw dashcam input to BEV pathfinding.
+
 
 ---
 
