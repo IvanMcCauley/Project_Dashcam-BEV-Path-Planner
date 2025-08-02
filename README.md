@@ -162,17 +162,11 @@ Useful if you're curious about the process, want to recreate it, or build on top
 
 ---
 
-## 📸 Output Screenshot
 
-<p align="center">
-  <img src="<!-- PLACEHOLDER: Insert output frame screenshot -->" width="800" alt="Sample Output Frame">
-</p>
-
----
 
 ## ▶️ Demo Video
 
-📹 **[Click here to watch the live demo →](<!-- PLACEHOLDER: YouTube link -->)**  
+📹 **[Click here to watch the live demo →](https://drive.google.com/file/d/1lvMLDSJ1ULKqPAdVSpwMIgijDAfISJai/view?usp=sharing)**  
 Watch the full pipeline in motion — from raw dashcam input to BEV pathfinding overlay.
 
 ---
