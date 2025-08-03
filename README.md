@@ -131,7 +131,7 @@ Though simplified, the system follows the same principles used in full-scale aut
 ## ▶️ Demo Video
 
 <a href="https://drive.google.com/file/d/1lvMLDSJ1ULKqPAdVSpwMIgijDAfISJai/view?usp=sharing" target="_blank">
-  <img src="OUTPUT_THUMBNAIL.png" alt="Watch the demo" width="75%">
+  <img src="OUTPUT_THUMBNAIL.png" alt="Watch the demo" width="50%">
 </a>
 
 📹 <strong>Click to watch the full demo</strong> 
