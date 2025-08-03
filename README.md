@@ -43,6 +43,16 @@
 
 ---
 
+## 👀 Who This Is For
+
+This project is useful for:
+
+- Engineers learning AV pipelines (YOLO → BEV → A*)
+- Students exploring modular robotics or ADAS logic
+- Recruiters or hiring managers looking for clean, interpretable codebases in autonomy
+
+---
+
 ## 🚗 Project Goal
 
 To simulate the key control loop of an autonomous vehicle:
@@ -116,6 +126,18 @@ This project simulates the **actual logic** used by modern autonomous vehicles:
 Though simplified, the system follows the same principles used in full-scale autonomous driving software.
 
 ---
+
+
+## ▶️ Demo Video
+
+<a href="https://drive.google.com/file/d/1lvMLDSJ1ULKqPAdVSpwMIgijDAfISJai/view?usp=sharing" target="_blank">
+  <img src="OUTPUT_THUMBNAIL.png" alt="Watch the demo" width="75%">
+</a>
+
+📹 <strong>Click to watch the full demo</strong> 
+
+---
+
 ### 📄 File Overview
 
 | File | Description |
@@ -169,20 +191,6 @@ Useful if you're curious about the process, want to recreate it, or build on top
 
 ---
 
-
-## ▶️ Demo Video
-
-<a href="https://drive.google.com/file/d/1lvMLDSJ1ULKqPAdVSpwMIgijDAfISJai/view?usp=sharing" target="_blank">
-  <img src="OUTPUT_THUMBNAIL.png" alt="Watch the demo" width="75%">
-</a>
-
-📹 <strong>Click to watch the full demo</strong> 
-
-
-
-
----
-
 ## ⚠️ Notes on Running
 
 This system is tuned for the provided `driving.mp4`. The perspective transform is manually calibrated for this video.
@@ -221,16 +229,6 @@ python main.py
 - Integrated YOLOv8 detection into a modular perception pipeline
 - Rendered planning intent using pulse animation for interpretability
 - Designed system architecture to mimic real-world AV modularity
-
----
-
-## 👀 Who This Is For
-
-This project is useful for:
-
-- Engineers learning AV pipelines (YOLO → BEV → A*)
-- Students exploring modular robotics or ADAS logic
-- Recruiters or hiring managers looking for clean, interpretable codebases in autonomy
 
 ---
 
