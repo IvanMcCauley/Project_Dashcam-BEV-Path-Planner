@@ -11,6 +11,17 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
 </p>
 
+---
+
+## ⚡ TL;DR
+
+- 🧠 Built a modular **autonomous driving simulation** from dashcam footage to path planning
+- 🎯 Replicates real AV pipeline: **Perception → Mapping → Planning**
+- 🛣️ Detects vehicles, builds BEV map, plans A* path with safety + lane constraints
+- 🛠️ Code is clean, modular, and ready to extend, ideal for showcasing AV system logic
+
+---
+
 
 
 <table>
@@ -54,7 +65,7 @@ This project emulates that reasoning:
 - What’s drivable? → BEV projection into occupancy grid
 - Where can I go? → A* path planning in real time
 
-It’s a simulation of the perception → planning loop used in real-world AV stacks like Apollo, Autoware, and CARIAD.
+It’s a simulation of the perception → planning loop used in real-world AV stacks.
 
 ---
 
@@ -109,7 +120,7 @@ Though simplified, the system follows the same principles used in full-scale aut
 
 | File | Description |
 |------|-------------|
-| [main.py](main.py) | Core execution file — runs detection, BEV, and path planning |
+| [main.py](main.py) | Core execution file, runs detection, BEV, and path planning |
 | [config.py](config.py) | Central config file for all constants and parameters |
 | [astar.py](astar.py) | A* pathfinding algorithm for lane-aware planning |
 | [detection.py](detection.py) | Runs YOLOv8 inference and handles result caching |
@@ -152,7 +163,7 @@ yolo_adas_project/
 
 ## 📓 Development Log
 
-Every step of the build — from detection and BEV projection to A* debugging and icon rendering — was tracked day-by-day in the [**LOG.md**](./LOG.md).
+Every step of the build, from detection and BEV projection to A* debugging and icon rendering, was tracked day-by-day in the [**LOG.md**](./LOG.md).
 
 Useful if you're curious about the process, want to recreate it, or build on top of it.
 
@@ -161,9 +172,13 @@ Useful if you're curious about the process, want to recreate it, or build on top
 
 ## ▶️ Demo Video
 
-[![Watch the demo](uploads/thumbnail.png)](https://drive.google.com/file/d/1lvMLDSJ1ULKqPAdVSpwMIgijDAfISJai/view?usp=sharing)
+<a href="https://drive.google.com/file/d/1lvMLDSJ1ULKqPAdVSpwMIgijDAfISJai/view?usp=sharing" target="_blank">
+  <img src="OUTPUT_THUMBNAIL.png" alt="Watch the demo" width="75%">
+</a>
 
-📹 **Click the image to watch the full demo** — see the system in action from raw dashcam input to BEV pathfinding.
+📹 <strong>Click to watch the full demo</strong> 
+
+
 
 
 ---
@@ -199,13 +214,23 @@ python main.py
 ```
 
 ---
-## 💡 What I Learned
+## 🛠 Engineering Highlights
 
-- Translating computer vision into real-time planning logic
-- Implementing A* from scratch and debugging edge cases
-- Designing a modular codebase that mirrors real AV architecture
-- Visual communication of intent, making AV decision-making interpretable
-- Managing detection noise and ensuring stability frame-to-frame
+- Built a real-time A* path planner with lane and safety logic
+- Transformed camera perspective to top-down BEV grid using manual trapezoidal warping
+- Integrated YOLOv8 detection into a modular perception pipeline
+- Rendered planning intent using pulse animation for interpretability
+- Designed system architecture to mimic real-world AV modularity
+
+---
+
+## 👀 Who This Is For
+
+This project is useful for:
+
+- Engineers learning AV pipelines (YOLO → BEV → A*)
+- Students exploring modular robotics or ADAS logic
+- Recruiters or hiring managers looking for clean, interpretable codebases in autonomy
 
 ---
 
