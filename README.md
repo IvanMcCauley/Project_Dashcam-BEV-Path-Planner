@@ -246,6 +246,6 @@ Each build is both a learning experience and a step toward contributing to real-
 ## 👤 Built By
 
 **Ivan McCauley**  
-[🔗 Connect on LinkedIn](https://www.linkedin.com/in/ivan-mccauley)
+[🔗 Connect on LinkedIn](https://www.linkedin.com/in/ivan-mccauley-82b17a177) 
 
 
