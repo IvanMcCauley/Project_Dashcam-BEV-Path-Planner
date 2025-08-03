@@ -109,7 +109,6 @@ It’s a simulation of the perception → planning loop used in real-world AV st
 
 ### ✅ Modular Design
 - Fully modular: each subsystem (perception, projection, planning, rendering) is in its own file
-- Mirrors industry architecture found in systems like Apollo, Autoware, and CARIAD
 - Easy to replace A* with other planners (e.g. Hybrid A*, RRT*)
 
 ---
