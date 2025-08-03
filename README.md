@@ -47,9 +47,9 @@
 
 This project is useful for:
 
-- Engineers learning AV pipelines (YOLO → BEV → A*)
-- Students exploring modular robotics or ADAS logic
-- Recruiters or hiring managers looking for clean, interpretable codebases in autonomy
+- Engineers exploring real-time autonomous vehicle pipelines
+- Students looking to understand modular AV system architecture
+- Anyone curious about how raw video input becomes driving decisions
 
 ---
 
