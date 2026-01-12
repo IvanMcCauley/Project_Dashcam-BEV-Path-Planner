@@ -204,7 +204,7 @@ If you use your own footage:
 
 1. Clone this repo
 ```
-git clone https://github.com/IvanMcCauley/Project_Dashcam-BEV-Pat-hPlanner.git
+git clone https://github.com/IvanMcCauley/Project_Dashcam-BEV-Path-Planner.git
 ```
 
 3. (Optional) Replace driving.mp4 with your own dashcam video
